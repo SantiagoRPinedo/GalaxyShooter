@@ -24,7 +24,7 @@ public class Powerup : MonoBehaviour
             Player player = other.GetComponent<Player>(); //Da acceso a metodos y variables publicas
             if (player != null){
                 if (powerupID == 0){
-                    //Cambiar el booleando del disparo triple a verdadero
+                    //Cambiar el booleando del disparo triple a TRUE
                     player.TripleShootPowerUpOn();
                 }else if (powerupID == 1){
                     //Habilitar velocidad 
